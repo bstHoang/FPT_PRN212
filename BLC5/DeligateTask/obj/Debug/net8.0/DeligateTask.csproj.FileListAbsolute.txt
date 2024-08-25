@@ -1,0 +1,15 @@
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.AssemblyInfoInputs.cache
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.AssemblyInfo.cs
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.csproj.CoreCompileInputs.cache
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\DeligateTask.exe
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\DeligateTask.deps.json
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\DeligateTask.runtimeconfig.json
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\DeligateTask.dll
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\DeligateTask.pdb
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.dll
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\refint\DeligateTask.dll
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.pdb
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\DeligateTask.genruntimeconfig.cache
+D:\PRN_BLC5\BLC5\DeligateTask\obj\Debug\net8.0\ref\DeligateTask.dll
+D:\PRN_BLC5\BLC5\DeligateTask\bin\Debug\net8.0\data.json

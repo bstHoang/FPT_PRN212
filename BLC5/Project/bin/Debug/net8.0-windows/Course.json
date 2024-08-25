@@ -1,0 +1,128 @@
+{
+  "Courses": [
+    {
+      "CourseID": "SE1888_PRN212",
+      "CourseName": "Program with C#",
+      "Students": [
+        {
+          "StudentID": 1,
+          "Name": "Nguyen Van A",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Ass1": 5.0,
+            "Ass2": 5.0,
+            "Project": 9.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        },
+        {
+          "StudentID": 2,
+          "Name": "Tran Van B",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Ass1": 5.0,
+            "Ass2": 5.0,
+            "Project": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        },
+        {
+          "StudentID": 3,
+          "Name": "Le Thi C",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Ass1": 5.0,
+            "Ass2": 5.0,
+            "Project": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        },
+        {
+          "StudentID": 4,
+          "Name": "Bui Van D",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Ass1": 5.0,
+            "Ass2": 5.0,
+            "Project": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        }
+      ]
+    },
+    {
+      "CourseID": "SE1889_SWR302",
+      "CourseName": "Software Requirement",
+      "Students": [
+        {
+          "StudentID": 1,
+          "Name": "Bui Sy Thai Hoang",
+          "Scores": {
+            "PT1": 8.0,
+            "PT2": 5.0,
+            "Lab1": 5.0,
+            "Lab2": 5.0,
+            "Presentation": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.428571428571429
+        },
+        {
+          "StudentID": 2,
+          "Name": "Nguyen Duc Phuong",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Lab1": 5.0,
+            "Lab2": 5.0,
+            "Presentation": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        },
+        {
+          "StudentID": 3,
+          "Name": "Vu Van Trong",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Lab1": 5.0,
+            "Lab2": 5.0,
+            "Presentation": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        },
+        {
+          "StudentID": 4,
+          "Name": "Nguyen Huu Cuong",
+          "Scores": {
+            "PT1": 5.0,
+            "PT2": 5.0,
+            "Lab1": 5.0,
+            "Lab2": 5.0,
+            "Presentation": 5.0,
+            "PE": 5.0,
+            "FE": 5.0
+          },
+          "GPA": 5.0
+        }
+      ]
+    }
+  ]
+}

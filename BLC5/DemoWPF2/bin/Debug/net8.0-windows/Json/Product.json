@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "Laptop",
+    "Category": "Electronics",
+    "Price": 1200.99,
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "Desk Chair",
+    "Category": "Furniture",
+    "Price": 150.49,
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "Bluetooth Speaker",
+    "Category": "Audio",
+    "Price": 75.99,
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "Coffee Mug",
+    "Category": "Kitchenware",
+    "Price": 12.99,
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "Notebook",
+    "Category": "Stationery",
+    "Price": 5.49,
+    "IsActive": false
+  }
+]

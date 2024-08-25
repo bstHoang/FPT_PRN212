@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "Title": "PRN212",
+    "Students": [
+      {
+        "Id": 1,
+        "Name": "Hoang",
+        "Grades": [
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Phuong",
+        "Grades": [
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 1, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Cuong",
+        "Grades": [
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Title": "SWR302",
+    "Students": [
+      {
+        "Id": 1,
+        "Name": "Hoang",
+        "Grades": [
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "Phuong",
+        "Grades": [
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 },
+          { "Mark": 1, "Rate": 0.25 },
+          { "Mark": 5, "Rate": 0.25 }
+        ]
+      },
+      {
+        "Id": 3,
+        "Name": "Cuong",
+        "Grades": [
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 },
+          { "Mark": 4, "Rate": 0.25 }
+        ]
+      }
+    ]
+  }
+]

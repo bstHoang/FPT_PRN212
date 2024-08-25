@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "Nguyen Van A",
+    "Sex": "Male",
+    "DOB": "2000-05-20"
+  },
+  {
+    "Id": 2,
+    "Name": "Tran Thi Bich",
+    "Sex": "Female",
+    "DOB": "2001-07-15"
+  },
+  {
+    "Id": 3,
+    "Name": "Le Van Cau",
+    "Sex": "Male",
+    "DOB": "1999-12-01"
+  },
+  {
+    "Id": 4,
+    "Name": "Nguyen Duc Phuong",
+    "Sex": "Male",
+    "DOB": "1999-12-13"
+  }
+]

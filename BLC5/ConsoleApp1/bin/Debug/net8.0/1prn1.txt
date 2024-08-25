@@ -1,0 +1,12 @@
+Order ID: 1
+Date: 8/6/2024 8:03:00 PM
+ID : 2,Item: Product 1, Quantity: 2, Price: 20, Description: N/A, Weight: 2.5
+ID : 3,Item: Product 2, Quantity: 3, Price: 15, Description: N/A, Weight: 1.2
+ID : 4,Item: Service 1, Quantity: 1, Price: 50, Description: Service description, Weight: 0
+ID : 5,Item: Service 2, Quantity: 1, Price: 50, Description: Service description 2, Weight: 0
+Order ID: 2
+Date: 8/6/2024 8:03:00 PM
+ID : 6,Item: Product 1, Quantity: 3, Price: 20, Description: N/A, Weight: 2.5
+ID : 7,Item: Product 2, Quantity: 5, Price: 15, Description: N/A, Weight: 1.2
+ID : 8,Item: Service 1, Quantity: 4, Price: 50, Description: Service description, Weight: 0
+ID : 9,Item: Service 2, Quantity: 1, Price: 50, Description: Service description 2, Weight: 0

@@ -1,0 +1,14 @@
+D:\PRN_BLC5\BLC5\BLC5\bin\Debug\net8.0\BLC5.exe
+D:\PRN_BLC5\BLC5\BLC5\bin\Debug\net8.0\BLC5.deps.json
+D:\PRN_BLC5\BLC5\BLC5\bin\Debug\net8.0\BLC5.runtimeconfig.json
+D:\PRN_BLC5\BLC5\BLC5\bin\Debug\net8.0\BLC5.dll
+D:\PRN_BLC5\BLC5\BLC5\bin\Debug\net8.0\BLC5.pdb
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.AssemblyInfoInputs.cache
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.AssemblyInfo.cs
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.csproj.CoreCompileInputs.cache
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.dll
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\refint\BLC5.dll
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.pdb
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\BLC5.genruntimeconfig.cache
+D:\PRN_BLC5\BLC5\BLC5\obj\Debug\net8.0\ref\BLC5.dll

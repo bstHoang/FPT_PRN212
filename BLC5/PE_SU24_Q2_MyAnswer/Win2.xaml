@@ -1,0 +1,46 @@
+﻿<Window x:Class="PE_SU24_Q2_MyAnswer.Win2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PE_SU24_Q2_MyAnswer"
+        mc:Ignorable="d"
+        Title="Win2" Height="450" Width="1000">
+    <Grid>
+        <DataGrid x:Name="CourseDataGrid" AutoGenerateColumns="False" 
+   HorizontalAlignment="Left" Margin="51,83,0,0" VerticalAlignment="Top" 
+   Height="264" Width="653" CanUserAddRows="False"
+           SelectionChanged="CourseDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="CourseID" Binding="{Binding CourseId}" Width="*"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="2*"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="2*"/>
+                <DataGridTextColumn Header="InstructorID" Binding="{Binding InstructorId}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="CourseID" HorizontalAlignment="Left" Margin="709,88,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="CourseIdTextBlock" HorizontalAlignment="Left" Margin="813,88,0,0"
+           VerticalAlignment="Top" Width="152"/>
+
+        <Label Content="Title" HorizontalAlignment="Left" Margin="709,119,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TitleTextBox" HorizontalAlignment="Left" Margin="813,119,0,0"
+         VerticalAlignment="Top" Width="152"/>
+
+        <Label Content="Description" HorizontalAlignment="Left" Margin="709,150,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="DescriptionTextBox" HorizontalAlignment="Left" Margin="813,150,0,0"
+         VerticalAlignment="Top" Width="152"/>
+
+
+
+        <Label Content="InstructorID" HorizontalAlignment="Left" Margin="709,181,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="InstructorComboBox" HorizontalAlignment="Left" Margin="813,181,0,0"
+          VerticalAlignment="Top" Width="152" DisplayMemberPath="Name"
+          SelectedValuePath="InstructorId"/>
+
+        <!-- Edit Button -->
+        <Button Content="Add" HorizontalAlignment="Left" Margin="813,220,0,0"
+        VerticalAlignment="Top" Width="152" Click="AddButton_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="813,250,0,0"
+VerticalAlignment="Top" Width="152" Click="DeleteButton_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\ConfigFile.exe
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\1prn1.txt
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\ConfigFile.deps.json
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\ConfigFile.runtimeconfig.json
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\ConfigFile.dll
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\ConfigFile.pdb
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.AssemblyInfoInputs.cache
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.AssemblyInfo.cs
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.csproj.CoreCompileInputs.cache
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.dll
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\refint\ConfigFile.dll
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.pdb
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ConfigFile.genruntimeconfig.cache
+D:\PRN_BLC5\BLC5\ConsoleApp1\obj\Debug\net8.0\ref\ConfigFile.dll
+D:\PRN_BLC5\BLC5\ConsoleApp1\bin\Debug\net8.0\appsettings.json

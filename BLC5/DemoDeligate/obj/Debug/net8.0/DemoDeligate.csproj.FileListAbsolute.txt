@@ -1,0 +1,14 @@
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.AssemblyInfoInputs.cache
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.AssemblyInfo.cs
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.csproj.CoreCompileInputs.cache
+D:\PRN_BLC5\BLC5\DemoDeligate\bin\Debug\net8.0\DemoDeligate.exe
+D:\PRN_BLC5\BLC5\DemoDeligate\bin\Debug\net8.0\DemoDeligate.deps.json
+D:\PRN_BLC5\BLC5\DemoDeligate\bin\Debug\net8.0\DemoDeligate.runtimeconfig.json
+D:\PRN_BLC5\BLC5\DemoDeligate\bin\Debug\net8.0\DemoDeligate.dll
+D:\PRN_BLC5\BLC5\DemoDeligate\bin\Debug\net8.0\DemoDeligate.pdb
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.dll
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\refint\DemoDeligate.dll
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.pdb
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\DemoDeligate.genruntimeconfig.cache
+D:\PRN_BLC5\BLC5\DemoDeligate\obj\Debug\net8.0\ref\DemoDeligate.dll

@@ -1,0 +1,58 @@
+﻿<Window x:Class="DemoWPF2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoWPF2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Select JSON File" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Width="120" 
+                Click="SelectFileButton_Click"/>
+        <TextBox x:Name="FilePathTextBox" HorizontalAlignment="Left" 
+                 Margin="130,0,0,0" VerticalAlignment="Top" Width="400" 
+                 IsReadOnly="True"/>
+        <Button Content="Show" HorizontalAlignment="Left" 
+                VerticalAlignment="Top" Width="76" 
+                Click="ShowButton_Click" Margin="22,25,0,0"/>
+
+        <ListBox x:Name="ProductListBox" HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" Margin="22,80,0,0" Width="508" 
+                 Height="300" ItemsSource="{Binding products}"
+                 SelectionChanged="ProductListBox_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Id}" Width="50"/>
+                        <TextBlock Text="{Binding Name}" Width="150"/>
+                        <TextBlock Text="{Binding Category}" Width="150"/>
+                        <TextBlock Text="{Binding Price}" Width="100"/>
+                        <TextBlock Text="{Binding IsActive}" Width="50"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="547,95,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="547,125,0,0" VerticalAlignment="Top"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="547,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="547,185,0,0" VerticalAlignment="Top"/>
+        <Label Content="Is Active" HorizontalAlignment="Left" Margin="547,215,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="IdTextBox" HorizontalAlignment="Left" Margin="605,99,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148" IsEnabled="False"/>
+        <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Margin="605,129,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="CategoryTextBox" HorizontalAlignment="Left" Margin="605,163,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="PriceTextBox" HorizontalAlignment="Left" Margin="605,193,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="IsActiveTextBox" HorizontalAlignment="Left" Margin="605,219,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="148"/>
+        <Button Content="Insert" HorizontalAlignment="Left" Margin="565,263,0,0" VerticalAlignment="Top" Click="Button_Insert"/>
+        <Button Content="Update" HorizontalAlignment="Left" Margin="613,263,0,0" VerticalAlignment="Top" Click="Button_Update"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="667,263,0,0" VerticalAlignment="Top" Click="Button_Delete"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="721,263,0,0" VerticalAlignment="Top"  Click="Button_Clear"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="721,297,0,0" VerticalAlignment="Top"  Click="Button_Close"/>
+        <ComboBox x:Name="CategoryFilterComboBox" HorizontalAlignment="Left" Margin="152,35,0,0" VerticalAlignment="Top" Width="150"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="333,35,0,0" VerticalAlignment="Top" Width="150">
+            <TextBox x:Name="PriceFromTextBox" Width="80" />
+            <TextBox x:Name="PriceToTextBox" Width="80" />
+        </StackPanel>
+        <Button Content="Filter" HorizontalAlignment="Left" Margin="490,35,0,0" VerticalAlignment="Top" Click="FilterButton_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\PRN_BLC5\BLC5\PEQ1SU24\bin\Debug\net8.0\PE_SU24_Q1.exe
+D:\PRN_BLC5\BLC5\PEQ1SU24\bin\Debug\net8.0\PE_SU24_Q1.deps.json
+D:\PRN_BLC5\BLC5\PEQ1SU24\bin\Debug\net8.0\PE_SU24_Q1.runtimeconfig.json
+D:\PRN_BLC5\BLC5\PEQ1SU24\bin\Debug\net8.0\PE_SU24_Q1.dll
+D:\PRN_BLC5\BLC5\PEQ1SU24\bin\Debug\net8.0\PE_SU24_Q1.pdb
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.AssemblyInfoInputs.cache
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.AssemblyInfo.cs
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.csproj.CoreCompileInputs.cache
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.dll
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\refint\PE_SU24_Q1.dll
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.pdb
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\PE_SU24_Q1.genruntimeconfig.cache
+D:\PRN_BLC5\BLC5\PEQ1SU24\obj\Debug\net8.0\ref\PE_SU24_Q1.dll
