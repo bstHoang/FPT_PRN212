@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PRN_BLC5\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj": {}
+    "D:\\PRN212\\FPT_PRN212\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj": {}
   },
   "projects": {
-    "D:\\PRN_BLC5\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj": {
+    "D:\\PRN212\\FPT_PRN212\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PRN_BLC5\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj",
+        "projectUniqueName": "D:\\PRN212\\FPT_PRN212\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj",
         "projectName": "PE_SU24_Q2_MyAnswer",
-        "projectPath": "D:\\PRN_BLC5\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj",
-        "packagesPath": "C:\\Users\\10t1q\\.nuget\\packages\\",
-        "outputPath": "D:\\PRN_BLC5\\BLC5\\PE_SU24_Q2_MyAnswer\\obj\\",
+        "projectPath": "D:\\PRN212\\FPT_PRN212\\BLC5\\PE_SU24_Q2_MyAnswer\\PE_SU24_Q2_MyAnswer.csproj",
+        "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212\\FPT_PRN212\\BLC5\\PE_SU24_Q2_MyAnswer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\10t1q\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,7 +84,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

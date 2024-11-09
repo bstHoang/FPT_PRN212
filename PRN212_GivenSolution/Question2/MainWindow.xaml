@@ -7,37 +7,112 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="1050">
     <Grid>
-        <DataGrid x:Name="ProjectDataGrid" AutoGenerateColumns="False" 
-                    HorizontalAlignment="Left" Margin="42,46,0,0" VerticalAlignment="Top" 
-                    Height="264" Width="649" CanUserAddRows="False" 
-                    SelectionChanged="ProjectDataGrid_SelectionChanged" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <!-- Cột dành cho DataGrid -->
+            <ColumnDefinition Width="1*"/>
+            <!-- Cột dành cho khu vực thông tin chi tiết -->
+        </Grid.ColumnDefinitions>
+        <!-- DataGrid hiển thị các dự án -->
+        <DataGrid x:Name="dataGridProjects" 
+                  AutoGenerateColumns="False" 
+                  SelectionChanged="dataGridProjects_SelectionChanged" 
+                  HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch"  
+                  Margin="10"
+                  CanUserAddRows="False"
+                  Grid.Column="0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*"/>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="3*"/>
-                <DataGridTextColumn Header="Description" Binding="{Binding Description}" Width="3*"/>
-                <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" Width="*"/>
-                <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="3*"/>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="*"/>
+
+                <DataGridTemplateColumn Header="Name" Width="3*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" 
+                            TextTrimming="CharacterEllipsis" 
+                            MaxHeight="20" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Description" Width="3*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Description}" 
+                       TextTrimming="CharacterEllipsis" 
+                       MaxHeight="20" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" Width="3*"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="2*"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Label Content="Current Project" HorizontalAlignment="Left" Margin="730,28,0,0" VerticalAlignment="Top"/>
-        <Label Content="ID" HorizontalAlignment="Left" Margin="730,59,0,0" VerticalAlignment="Top"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="730,99,0,0" VerticalAlignment="Top"/>
-        <Label Content="Description" HorizontalAlignment="Left" Margin="730,141,0,0" VerticalAlignment="Top"/>
-        <Label Content="StartDate" HorizontalAlignment="Left" Margin="730,242,0,0" VerticalAlignment="Top"/>
-        <Label Content="Type" HorizontalAlignment="Left" Margin="730,292,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="ID" HorizontalAlignment="Left" Margin="809,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" IsReadOnly="True"/>
-        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="809,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
-        <TextBox x:Name="Description" HorizontalAlignment="Left" Margin="809,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="88"/>
-        <DatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" IsEnabled="True" Margin="809,255,21,0"  VerticalAlignment="Top" Width="170"/>
-        <ComboBox x:Name="ProjectTypeComboBox" HorizontalAlignment="Left" Margin="809,296,0,0" VerticalAlignment="Top" Width="170" >
-            <ComboBox.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding Type}"/>
-                </DataTemplate>
-            </ComboBox.ItemTemplate>
-        </ComboBox>
-        <Button Content="Refresh" HorizontalAlignment="Left" Margin="789,351,0,0" VerticalAlignment="Top" Click="Refresh_Click" Width="54"/>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="867,351,0,0" VerticalAlignment="Top" Width="40" Click="Add_Click"/>
-        <Button Content="Edit" HorizontalAlignment="Left" Margin="929,351,0,0" VerticalAlignment="Top" Width="50" Click="Edit_Click"/>
+        
+        <!-- Khu vực hiển thị thông tin chi tiết của dự án -->
+        <Grid HorizontalAlignment="Left" 
+            VerticalAlignment="Center" 
+            Margin="10" 
+            Width="300"
+            Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <!-- Cột dành cho nhãn -->
+                <ColumnDefinition Width="3*"/>
+                <!-- Cột dành cho input -->
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho tiêu đề -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho ID -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho Name -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho Description -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho StartDate -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho Type -->
+                <RowDefinition Height="Auto"/>
+                <!-- Dòng dành cho các nút thao tác -->
+            </Grid.RowDefinitions>
+
+            <!-- Current Project -->
+            <TextBlock Text="Current Project" 
+               FontWeight="Bold" 
+               Grid.Row="0"
+               Grid.ColumnSpan="2" 
+               Margin="0,0,0,10"/>
+
+            <!-- ID -->
+            <TextBlock Text="ID" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="0,15,10,5"/>
+            <TextBox x:Name="txtID" IsReadOnly="True" Grid.Row="1" Grid.Column="1" Width="154" HorizontalAlignment="Left" Margin="0,15,0,5"/>
+
+            <!-- Name -->
+            <TextBlock Text="Name" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="0,15,10,5"/>
+            <TextBox Name="txtName" Grid.Row="2" Grid.Column="1" Margin="0,15,0,5"/>
+
+            <!-- Description -->
+            <TextBlock Text="Description" Grid.Row="3" Grid.Column="0" VerticalAlignment="Top" Margin="0,15,10,5"/>
+            <TextBox Name="txtDescription" Grid.Row="3" Grid.Column="1" Height="90" TextWrapping="Wrap" AcceptsReturn="True" Margin="0,15,0,5"/>
+
+            <!-- StartDate -->
+            <TextBlock Text="StartDate" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Margin="0,15,10,5"/>
+            <DatePicker Name="datePickerStartDate" Grid.Row="4" Grid.Column="1" Margin="0,15,0,5"/>
+
+            <!-- Type -->
+            <TextBlock Text="Type" Grid.Row="5" Grid.Column="0" VerticalAlignment="Center" Margin="0,15,10,5"/>
+            <ComboBox x:Name="comboBoxType" Width="150" HorizontalAlignment="Left" Grid.Row="5" Grid.Column="1" Margin="0,15,0,5"/>
+
+            <!-- Các nút thao tác -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="6" Grid.ColumnSpan="2" Margin="0,10,0,0" Width="323">
+                <Button x:Name="btnRefresh" Content="Refresh" Click="btnRefresh_Click" Margin="12,0,30,0" Width="63"/>
+                <Button x:Name="btnAdd" Content="Add" Click="btnAdd_Click" Margin="0,0,30,0" Width="71"/>
+                <Button x:Name="btnEdit" Content="Edit" Click="btnEdit_Click" Margin="0,0,30,0" Width="72"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

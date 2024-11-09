@@ -15,9 +15,13 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <DataGrid x:Name="ProductDataGrid" AutoGenerateColumns="False" 
-                  HorizontalAlignment="Center" Margin="0,15,0,0" VerticalAlignment="Top" 
-                  Height="200" Width="760" SelectionChanged="ProductDataGrid_SelectionChanged">
+        <DataGrid x:Name="ProductDataGrid"
+                  AutoGenerateColumns="False" 
+                  HorizontalAlignment="Center" 
+                  Margin="0,15,0,0" 
+                  VerticalAlignment="Top" 
+                  Height="200" Width="760" 
+                  SelectionChanged="ProductDataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Binding="{Binding ProductId}" Width="*"/>
                 <DataGridTextColumn Header="Name" Binding="{Binding ProductName}" Width="2*"/>

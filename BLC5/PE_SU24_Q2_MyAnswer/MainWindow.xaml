@@ -15,9 +15,14 @@
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
-        <DataGrid x:Name="CourseDataGrid" AutoGenerateColumns="False" 
-          HorizontalAlignment="Left" Margin="51,0,0,0" VerticalAlignment="Center" 
-          Height="264" Width="653" CanUserAddRows="False"
+        <DataGrid x:Name="CourseDataGrid" 
+                  AutoGenerateColumns="False" 
+                  HorizontalAlignment="Left" 
+                  Margin="51,0,0,0" 
+                  VerticalAlignment="Center" 
+                  Height="264" 
+                  Width="653" 
+                  CanUserAddRows="False"
                   SelectionChanged="CourseDataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="CourseID" Binding="{Binding CourseId}" Width="*"/>
