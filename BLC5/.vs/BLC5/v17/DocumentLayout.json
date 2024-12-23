@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\PRN212\\FPT_PRN212\\BLC5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|d:\\prn212\\fpt_prn212\\blc5\\connectdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|solutionrelative:connectdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|d:\\prn212\\fpt_prn212\\blc5\\peq1su24\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|solutionrelative:peq1su24\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|d:\\prn212\\fpt_prn212\\blc5\\connectdb\\models\\nortwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|solutionrelative:connectdb\\models\\nortwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|d:\\prn212\\fpt_prn212\\blc5\\peq1su24\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|solutionrelative:peq1su24\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|d:\\prn212\\fpt_prn212\\blc5\\connectdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C6EF1029-28A8-4CE7-AF26-56A9480ED951}|ConnectDB\\ConnectDB.csproj|solutionrelative:connectdb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|d:\\prn212\\fpt_prn212\\blc5\\peq1su24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|solutionrelative:peq1su24\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|d:\\prn212\\fpt_prn212\\blc5\\peq1su24\\presentationdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23DC6213-D728-4117-80FD-D730466E46A4}|PEQ1SU24\\PE_SU24_Q1.csproj|solutionrelative:peq1su24\\presentationdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "ConnectDB\\MainWindow.xaml",
-              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\MainWindow.xaml",
-              "RelativeToolTip": "ConnectDB\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-21T08:14:37.765Z",
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Department.cs",
+              "RelativeDocumentMoniker": "PEQ1SU24\\Department.cs",
+              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Department.cs",
+              "RelativeToolTip": "PEQ1SU24\\Department.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T08:20:12.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NortwindContext.cs",
-              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\Models\\NortwindContext.cs",
-              "RelativeDocumentMoniker": "ConnectDB\\Models\\NortwindContext.cs",
-              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\Models\\NortwindContext.cs",
-              "RelativeToolTip": "ConnectDB\\Models\\NortwindContext.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAUwEcAAAA9AAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Employee.cs",
+              "RelativeDocumentMoniker": "PEQ1SU24\\Employee.cs",
+              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Employee.cs",
+              "RelativeToolTip": "PEQ1SU24\\Employee.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T08:11:00.508Z",
+              "WhenOpened": "2024-12-15T08:20:06.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PresentationDelegate.cs",
+              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\PresentationDelegate.cs",
+              "RelativeDocumentMoniker": "PEQ1SU24\\PresentationDelegate.cs",
+              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\PresentationDelegate.cs",
+              "RelativeToolTip": "PEQ1SU24\\PresentationDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T08:20:03.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\appsettings.json",
-              "RelativeDocumentMoniker": "ConnectDB\\appsettings.json",
-              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\ConnectDB\\appsettings.json",
-              "RelativeToolTip": "ConnectDB\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-21T08:05:39.434Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Program.cs",
+              "RelativeDocumentMoniker": "PEQ1SU24\\Program.cs",
+              "ToolTip": "D:\\PRN212\\FPT_PRN212\\BLC5\\PEQ1SU24\\Program.cs",
+              "RelativeToolTip": "PEQ1SU24\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T08:19:47.03Z",
               "EditorCaption": ""
             }
           ]
